@@ -18,7 +18,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_inappwebview_platform_interface: ^1.0.10
+  flutter_inappwebview_platform_interface:
+    git:
+      url: https://github.com/soeil/flutter_inappwebview.git
+      path: flutter_inappwebview_platform_interface
+      ref: 81ac23793319089323791d0a7e34e46eb096b6e2
 
 dev_dependencies:
   flutter_test:
